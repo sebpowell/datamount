@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gutter: var(--space-8);
+  --navigation-height: var(--space-16);
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --navigation-height: var(--space-24);
+  }
+}

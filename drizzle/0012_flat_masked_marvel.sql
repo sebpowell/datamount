@@ -1,0 +1,1 @@
+ALTER TYPE "endpointsEnum" ADD VALUE 'addressMatch';

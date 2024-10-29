@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:tailwindcss/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "tailwindcss/no-custom-classname": "warn"
+  },
+  "settings": {
+    "tailwindcss": {
+      "callees": ["clsx", "cn", "tv", "cva"]
+    }
+  }
+}
